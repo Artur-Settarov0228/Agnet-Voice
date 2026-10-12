@@ -19,3 +19,5 @@ Agentning to'liq qoidalari [AGENTS.md](AGENTS.md) faylida keltirilgan:
 - **Tinish belgilari**: Gap intonatsiyasiga qarab nuqta, vergul, so'roq va undov belgilari joylashtiriladi.
 - **Ko'p tillilik**: Ovoz qaysi tilda bo'lsa, aynan o'sha tilda matn yoziladi.
 - **Shovqin va noaniqlik**: Tushunarsiz so'zlar to'qib chiqarilmaydi, `[tushunarsiz]` deb belgilanadi.
+- **Avtomatik saqlash**: Har bir matn avtomatik tarzda `transkriptlar.txt` fayliga saqlanadi.
+- **Alohida ajratish va raqamlash**: Ovozlar bir-biriga qo'shilib ketmasligi uchun tartib raqami (`1-ovoz:`, `2-ovoz:`) bilan alohida ajratib yoziladi.

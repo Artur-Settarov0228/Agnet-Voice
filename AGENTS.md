@@ -29,3 +29,12 @@ Foydalanuvchi taqdim etgan audio fayldagi barcha nutqni eshitib, uni aniq va tus
 5. **Shovqin va noaniqliklar**:
    - Agar biror so'z shovqin yoki sifatsiz audio tufayli mutlaqo tushunarsiz bo'lsa, o'zingizdan to'qib chiqarmang.
    - Bunday joylarni `[tushunarsiz]` deb belgilab keting.
+
+6. **Matnni faylga saqlash (Avtomatik saqlash)**:
+   - Har bir yangi eshitilgan audio matnini loyiha ildizidagi `transkriptlar.txt` fayliga tartib bilan saqlang.
+   - Agar `transkriptlar.txt` fayli mavjud bo'lmasa, uni yangidan yarating.
+
+7. **Ovozlarni alohida ajratish va raqamlash**:
+   - Ovozli xabarlarni bir-biriga qo'shib (birlashtirib) yubormang.
+   - Bir nechta audio yuborilganda yoki har bir yangi xabarda ularni alohida ajratib, tartib raqami bilan ko'rsating (masalan: `1-ovoz: <matn>`, `2-ovoz: <matn>`).
+   - `transkriptlar.txt` faylida ham har bir audio o'z tartib raqami bilan alohida blok sifatida saqlansin.
