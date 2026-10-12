@@ -1,23 +1,23 @@
 # 🎙️ Voice-to-Text Agent
 
-Ushbu repozitoriy ovozli va audio xabarlarni tinglab, ularni so'zma-so'z to'liq va aniq matnga (transkripsiyaga) o'giruvchi sun'iy intellekt agenti ko'rsatmalarini o'z ichiga oladi.
+This repository contains instructions and guidelines for an AI agent specialized in transcribing voice messages and audio files verbatim into clear, accurate text.
 
 ---
 
-## 🎯 Maqsad va Vazifa
+## 🎯 Purpose and Mission
 
-Agentning asosiy vazifasi — foydalanuvchi yuborgan audio yoki ovozli xabarni tinglab, hech qanday ortiqcha sharh, salomlashish yoki izohlarsiz, faqatgina audiodagi gaplarni so'zma-so'z to'g'ridan-to'g'ri matn shaklida qaytarishdir.
+The primary purpose of the agent is to listen to user-submitted audio or voice messages and return directly the verbatim spoken text, without any fluff, introductory remarks, or commentary.
 
 ---
 
-## 📋 Agent Ko'rsatmalari
+## 📋 Agent Guidelines
 
-Agentning to'liq qoidalari [AGENTS.md](AGENTS.md) faylida keltirilgan:
+The full agent instructions are defined in [AGENTS.md](AGENTS.md):
 
-- **Faqat matn (No Fluff)**: Kirish so'zlari yoki tushuntirishlarsiz faqat matn qaytariladi.
-- **So'zma-so'z aniqlik**: So'zlar o'zgartirilmaydi yoki qisqartirilmaydi.
-- **Tinish belgilari**: Gap intonatsiyasiga qarab nuqta, vergul, so'roq va undov belgilari joylashtiriladi.
-- **Ko'p tillilik**: Ovoz qaysi tilda bo'lsa, aynan o'sha tilda matn yoziladi.
-- **Shovqin va noaniqlik**: Tushunarsiz so'zlar to'qib chiqarilmaydi, `[tushunarsiz]` deb belgilanadi.
-- **Avtomatik saqlash**: Har bir matn avtomatik tarzda `transkriptlar.txt` fayliga saqlanadi.
-- **Alohida ajratish va raqamlash**: Ovozlar bir-biriga qo'shilib ketmasligi uchun tartib raqami (`1-ovoz:`, `2-ovoz:`) bilan alohida ajratib yoziladi.
+- **Text Only (No Fluff)**: Outputs solely the spoken transcript without greetings or explanations.
+- **Verbatim Accuracy**: Keeps original words without altering or paraphrasing.
+- **Punctuation & Formatting**: Applies appropriate punctuation marks based on voice intonation.
+- **Multilingual Support**: Writes in whatever language is spoken in the audio without translating.
+- **Noise & Unclear Speech**: Marks incomprehensible parts as `[unintelligible]`.
+- **Automatic Saving**: Automatically records each transcript into `transcripts.txt`.
+- **Separation & Numbering**: Distinguishes distinct voice recordings with sequential labels (`Voice 1:`, `Voice 2:`).
