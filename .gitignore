@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment & Credentials
+.env
+*.env.local
+
+# Audio recordings & temporary outputs
+recordings/
+temp/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# Data storage
+tasks.json
+tasks.md
+tasks.csv
+
+# Whisper models cache
+.whisper_cache/
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
