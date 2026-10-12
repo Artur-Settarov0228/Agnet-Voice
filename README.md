@@ -1,29 +1,21 @@
-# 🤖 Ovozli Vazifa Menejeri (Voice Task Agent)
+# 🎙️ Voice-to-Text Agent
 
-Ovozli xabarlarni Google Gemini API orqali matnga o'giruvchi va `AGENTS.md` dagi ko'rsatmalar asosida avtomatik To-Do ro'yxatiga aylantirib beruvchi sodda va tezkor yechim.
+Ushbu repozitoriy ovozli va audio xabarlarni tinglab, ularni so'zma-so'z to'liq va aniq matnga (transkripsiyaga) o'giruvchi sun'iy intellekt agenti ko'rsatmalarini o'z ichiga oladi.
 
-## 🚀 Ishga tushirish
+---
 
-1. **Kutubxonalarni o'rnatish:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🎯 Maqsad va Vazifa
 
-2. **API kalitni sozlash:**
-   `.env` fayliga Gemini API kalitini yozing:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
+Agentning asosiy vazifasi — foydalanuvchi yuborgan audio yoki ovozli xabarni tinglab, hech qanday ortiqcha sharh, salomlashish yoki izohlarsiz, faqatgina audiodagi gaplarni so'zma-so'z to'g'ridan-to'g'ri matn shaklida qaytarishdir.
 
-3. **Skriptni ishga tushirish:**
-   ```bash
-   python main.py audio.mp3
-   ```
-   yoki to'g'ridan-to'g'ri:
-   ```bash
-   python main.py
-   ```
+---
 
-## 📋 Bosqichlar
-- **1-bosqich:** Audio fayldan to'liq transkripsiya (qora matn) olinadi.
-- **2-bosqich:** `AGENTS.md` qoidalari asosida tozalangan, ustuvorligi va muddatlari belgilangan strukturalangan To-Do ro'yxati ekranga chiqariladi.
+## 📋 Agent Ko'rsatmalari
+
+Agentning to'liq qoidalari [AGENTS.md](AGENTS.md) faylida keltirilgan:
+
+- **Faqat matn (No Fluff)**: Kirish so'zlari yoki tushuntirishlarsiz faqat matn qaytariladi.
+- **So'zma-so'z aniqlik**: So'zlar o'zgartirilmaydi yoki qisqartirilmaydi.
+- **Tinish belgilari**: Gap intonatsiyasiga qarab nuqta, vergul, so'roq va undov belgilari joylashtiriladi.
+- **Ko'p tillilik**: Ovoz qaysi tilda bo'lsa, aynan o'sha tilda matn yoziladi.
+- **Shovqin va noaniqlik**: Tushunarsiz so'zlar to'qib chiqarilmaydi, `[tushunarsiz]` deb belgilanadi.
