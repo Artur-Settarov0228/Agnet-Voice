@@ -1,0 +1,18 @@
+📝 Asl matn:
+"Bir, bir, bir, bir."
+
+🎯 Vazifalar:
+1-task: Ovoz va mikrofon aloqasini tekshirish
+  1-step: Mikrofon sozlamalari va ovoz uzatilishini tekshirib ko'rish
+
+---
+
+📝 Asl matn:
+"Keyin yana bitta bot, hozir mana shu botni ham qilish kerak. Men ovoz ko'rinishida vazifa beraman-ku, shu ovoz ko'rinishida olgan vazifani oladi-da, birinchi matn ko'rinishiga chiqarib beradi — birinchi bosqich. Ya'ni matn ko'rinishida chiqarib beradi. Keyin har bir aytilgan vazifalarni bu matnni olib bo'lgandan keyin, ikkinchi bosqichi: shundan xuddi vazifalar ketma-ketligida qo'yib chiqadi. Shu hozir..."
+
+🎯 Vazifalar:
+1-task: Ovozli xabarlardan vazifalarni ajratuvchi botni (Voice Task Manager Bot) yaratish
+  1-step: Foydalanuvchidan ovozli xabarni qabul qilib, uni 1-bosqichda to'liq matn (transkripsiya) ko'rinishiga o'girish
+  2-step: Olingan matndan barcha asosiy topshiriq va texnik vazifalarni ajratib olish
+  3-step: 2-bosqichda har bir vazifani mantiqiy ketma-ketlik va qat'iy qadamlar (steplar) bo'yicha tizimlashtirib berish
+
